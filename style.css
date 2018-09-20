@@ -1,0 +1,61 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    /*    background-image: url("images/bg.jpg");
+*/
+    /*background-size: cover;*/
+    color: white;
+    font-size: 1.2rem;
+}
+.row {
+    font-family: 'Share', cursive;
+}
+footer {
+    font-size: 0.8rem;
+    height: 1.3rem;
+    background-color: #081117;
+    color: white;
+}
+.heart {
+    color: #e25555;
+}
+a {
+    color: #0099ff;
+}
+a:hover {
+    text-decoration: none;
+    color: #0055ff;
+}
+.backdrop {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("images/bg.jpg");
+    background-size: cover
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.btn-primary {
+    color: #fff;
+    background-image: linear-gradient(rgba(73, 159, 193), rgba(215, 44, 36));
+    border-color: transparent;
+}
